@@ -46,9 +46,8 @@ h1, h2 {
 }
 
 .hover-text {
-  display: block;         
+  display: none;         
   position: absolute;     
-  bottom: 10px;         
   left: 50%;              
   transform: translateX(-50%);
   background: rgba(0,0,0,0.7);
@@ -56,4 +55,7 @@ h1, h2 {
   padding: 0.3rem 0.6rem;
 }
 
+.card:hover .hover-text {
+  display: block;      
+}
 
